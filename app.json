@@ -1,14 +1,13 @@
 {
   "expo": {
-    "name": "hitungan-gaji",
-    "slug": "snack-c0341ec7-a304-4c39-8f11-4bde3ee8366a",
-    "version": "1.0.0",
+    "name": "Slip Gaji Master",
+    "slug": "slip-gaji-app",
+    "version": "2.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,16 +15,19 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.komputerwh2-svg.slipgajiapp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.komputerwh2.slipgajiapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "Hitung Gajimu Agar Tidak Keliru"
+    "extra": {
+      "eas": {
+        "projectId": "masukkan-id-project-expo-disini-jika-ada"
+      }
+    }
   }
 }
